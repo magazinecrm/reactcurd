@@ -4,9 +4,9 @@ import * as firebase from 'firebase'
 
 
 var firebaseConfig = {
-  apiKey: "AIzaSyADFrEw8guPpXXogZzio",
+  apiKey: "AIo",
   authDomain: "react-cseapp.com",
-  databaseURL: "https://react-crud-1cbb3.firebaseio.com",
+  databaseURL: "https://react-crud-1cbb3.firo.com",
   projectId: "react-crud-1cbb3",
   storageBucket: "react-crappspot.com",
   messagingSenderId: "930049773",
