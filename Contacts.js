@@ -26,7 +26,8 @@ const Contacts = () => {
                                                                         setCurrentId('') 
                                                                         })   
                             else
-                            firebaseDb.child('contacts/${currentId}').set(
+                            
+                             firebaseDb.child(`contacts/${currentId}`).set(
                                                             obj,err => {if (err)
                                                                     console.log(err)
                                                                     else
@@ -35,7 +36,7 @@ const Contacts = () => {
                                                                                             
                                                                 
 
-                            }
+                                                               console.log({currentId})    }
     return (        
     <React.Fragment> 
             <div className="jumbotron jumbotron-fluid">
